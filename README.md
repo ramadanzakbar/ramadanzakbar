@@ -19,8 +19,8 @@ I'm a Fullstack & AI Developer passionate about combining **Machine Vision** and
 ---
 
 ### 📈 GitHub Stats
-![Akbar's GitHub stats](https://github-readme-stats.vercel.app/api?username=akbarariyadi&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=akbarariyadi&layout=compact&theme=tokyonight)
+![Akbar's GitHub stats](https://github-readme-stats.vercel.app/api?username=ramadanzakbar&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ramadanzakbar&layout=compact&theme=tokyonight)
 
 ---
 
