@@ -3,7 +3,7 @@
 ### 👋 Hi, I'm Akbar!
 I'm a Fullstack & AI Developer passionate about combining **Machine Vision** and **Web Engineering** 🚀
 
-- 🔭 Currently building **Perfect10 AI System**
+- 🔭 Currently building **BARTERMINAL**
 - 🌱 Exploring **Graph-based Memory for Chatbots**
 - 💬 Ask me about **React, Python, or AI Engineering**
 - 🏡 From **Blitar, Indonesia**
