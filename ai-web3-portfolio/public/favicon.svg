@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#02120e" />
+      <stop offset="60%" stop-color="#010807" />
+      <stop offset="100%" stop-color="#000404" />
+    </radialGradient>
+    <linearGradient id="betaStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ff9f" />
+      <stop offset="100%" stop-color="#00b87a" />
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
+      <feComponentTransfer in="blur">
+        <feFuncA type="linear" slope="0.9" />
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="256" height="256" fill="url(#bg)" />
+  <g fill="none" stroke="url(#betaStroke)" stroke-width="30" stroke-linecap="round" filter="url(#glow)">
+    <path d="M140 34c-40 0-68 26-68 58v128" />
+    <path d="M140 34v128c40 0 64-23 64-50s-24-50-64-50" />
+    <path d="M140 162c36 0 60 19 60 44 0 25-24 44-60 44" />
+  </g>
+  <path
+    d="M140 34c-40 0-68 26-68 58v128m68-186v128c40 0 64-23 64-50s-24-50-64-50m0 122c36 0 60 19 60 44 0 25-24 44-60 44"
+    fill="none"
+    stroke="url(#betaStroke)"
+    stroke-width="24"
+    stroke-linecap="round"
+  />
+</svg>
