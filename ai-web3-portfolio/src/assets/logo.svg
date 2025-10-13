@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#18f5b1" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18f5b1" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="glyph" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#28ffbc" />
+      <stop offset="55%" stop-color="#19d0ff" />
+      <stop offset="100%" stop-color="#9f72ff" />
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" />
+    </filter>
+  </defs>
+  <rect width="256" height="256" fill="#030910" rx="32" />
+  <circle cx="128" cy="128" r="120" fill="url(#halo)" />
+  <path
+    d="M136 44c-44 0-72 26-72 64v112c0 6-2 12-5 16h40c2-4 3-10 3-16v-99c0-24 19-43 49-43 30 0 49 19 49 43 0 21-14 37-36 42 29 6 47 23 47 48 0 31-27 53-67 53-22 0-41-6-55-16l-10 28c17 13 42 20 69 20 57 0 97-32 97-81 0-34-20-57-50-70 24-10 39-32 39-58 0-42-36-71-98-71Z"
+    fill="url(#glyph)"
+    filter="url(#softGlow)"
+    opacity="0.6"
+  />
+  <path
+    d="M136 44c-44 0-72 26-72 64v112c0 6-2 12-5 16h40c2-4 3-10 3-16v-99c0-24 19-43 49-43 30 0 49 19 49 43 0 21-14 37-36 42 29 6 47 23 47 48 0 31-27 53-67 53-22 0-41-6-55-16l-10 28c17 13 42 20 69 20 57 0 97-32 97-81 0-34-20-57-50-70 24-10 39-32 39-58 0-42-36-71-98-71Z"
+    fill="url(#glyph)"
+  />
+</svg>
